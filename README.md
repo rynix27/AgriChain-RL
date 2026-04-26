@@ -70,6 +70,35 @@ No RL environment has ever modelled this two-stage problem end-to-end. AgriChain
 Model: `Qwen2.5-7B` | Library: Unsloth + HF TRL | Method: GRPO | Steps: 207 | Compute: Free T4 GPU
 
 ---
+## Reproducibility
+
+This repository provides full access to the environment, training pipeline, and logs required to reproduce results.
+
+### Environment
+- `environment.py` — Stage 1 (FreshChain logistics)
+- `mandi_env.py` — Stage 2 (negotiation)
+- `agrichain.py` — full two-stage pipeline
+
+### Training Script
+- `agrichain_training.ipynb`
+- Includes:
+  - dataset generation
+  - reward functions (R1–R5)
+  - GRPO training loop
+  - evaluation + plotting
+
+### Training Logs
+- `agrichain_grpo_curves.png` — reward + loss curves
+- Shows convergence over 207 steps
+- Includes ablation: greedy → GRPO → GRPO+R5
+
+### How to Reproduce
+1. Install dependencies  
+2. Open the notebook  
+3. Run all cells on a T4 GPU (~60 minutes)  
+
+This will reproduce the full training pipeline and results.
+
 
 ## How the Environment Works
 
