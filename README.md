@@ -14,7 +14,6 @@ license: apache-2.0
 
 > **We trained an AI to think like an Indian farmer — minimize spoilage, then out-negotiate professional buyers at the mandi.**
 
-
 **Results: Greedy 0.786 → GRPO+R5 3.334 → Improvement +2.548 (4.2×)**
 
 | Agent | Score |
@@ -22,7 +21,7 @@ license: apache-2.0
 | Greedy baseline | 0.786 |
 | GRPO (R1-R4 only) | 2.853 |
 | GRPO + R5 Process Supervision | **3.334** |
-| R5 marginal gain | +0.779 |
+| R5 marginal gain | +0.481 |
 | Total improvement | **+2.548 (4.2×)** |
 
 Built for the **Meta PyTorch OpenEnv Hackathon × Scaler School of Technology, India 2026**.
@@ -33,10 +32,11 @@ Built for the **Meta PyTorch OpenEnv Hackathon × Scaler School of Technology, I
 
 | Resource | Link |
 |---|---|
-| 🚀 **Live Demo** | [HuggingFace Space — try it yourself](https://huggingface.co/spaces/Manasviii27/agrichain-rl) |
-| 📓 **Training Notebook** | [Google Colab — run it yourself](#) *(update after onsite training)* |
-| 📝 **Blog Post** | [AgriChain-RL on HuggingFace](https://huggingface.co/blog/Manasviii27/agrichain-rl) |
-| 📊 **Results** | See training curves below |
+| **Live Demo** | [HuggingFace Space — try it yourself](https://huggingface.co/spaces/manasviii27/AgriChain-rl) |
+| **GitHub Repo** | [rynix27/AgriChain-RL](https://github.com/rynix27/AgriChain-RL) |
+| **Training Notebook** | [Kaggle — run it yourself](https://www.kaggle.com/code/riftstack/notebooka6832d0bd6) |
+| **Blog / Video** | Coming soon |
+| **Results** | See training curves below |
 
 ---
 
@@ -54,8 +54,6 @@ No RL environment has ever modelled this two-stage problem end-to-end. AgriChain
 ---
 
 ## Training Results
-
-> ⚠️ Numbers below will be updated after onsite training on 25–26 April 2026 using HuggingFace compute credits. The notebook auto-generates all metrics.
 
 ![AgriChain-RL GRPO Training Curves](agrichain_grpo_curves.png)
 
@@ -235,7 +233,7 @@ Training uses **hard tasks only** with the base model — this ensures the model
 | Generations per prompt | 8 |
 | Sampling temperature | 1.2 |
 | Learning rate | 5e-5 with cosine schedule + 10% warmup |
-| Compute | HuggingFace onsite credits (T4/A100), 25–26 Apr 2026 |
+| Compute | Free T4 GPU · 7.4 GB VRAM · ~64 minutes |
 
 ### Why GRPO?
 
@@ -286,7 +284,7 @@ agrichain-rl/
 ├── server/
 │   └── app.py                 # Uvicorn entry point — OpenEnv multi-mode server spec
 │
-├── agrichain_training.ipynb   # Complete GRPO training notebook (Colab-ready)
+├── agrichain_training.ipynb   # Complete GRPO training notebook (Kaggle-ready)
 │                              #   Cell 0: install deps
 │                              #   Cell 1: environment definition (sync, no FastAPI)
 │                              #   Cell 2: greedy baseline + episode runner
@@ -299,7 +297,7 @@ agrichain-rl/
 │                              #   Cell 9: loss curve + reward curves + benchmark
 │                              #   Cell 10: save LoRA adapters + push to HF Hub
 │
-├── agrichain_grpo_curves.png  # Training plots (updated after onsite training)
+├── agrichain_grpo_curves.png  # Training plots from real run
 ├── BLOG_POST.md               # Full technical write-up
 ├── openenv.yaml               # OpenEnv environment manifest
 ├── requirements.txt           # Server/deployment dependencies
@@ -315,7 +313,7 @@ agrichain-rl/
 
 ### Use the Live Space
 
-Open the [HuggingFace Space](https://huggingface.co/spaces/Manasviii27/agrichain-rl) and play an episode interactively, or click **Run Greedy Agent** to watch the baseline play automatically.
+Open the [HuggingFace Space](https://huggingface.co/spaces/manasviii27/AgriChain-rl) and play an episode interactively, or click **Run Greedy Agent** to watch the baseline play automatically.
 
 ### Connect via WebSocket
 
@@ -323,7 +321,7 @@ Open the [HuggingFace Space](https://huggingface.co/spaces/Manasviii27/agrichain
 import asyncio, json, websockets
 
 async def play():
-    uri = "wss://Manasviii27-agrichain-rl.hf.space/ws"
+    uri = "wss://manasviii27-agrichain-rl.hf.space/ws"
     async with websockets.connect(uri) as ws:
 
         # Start episode
@@ -361,8 +359,8 @@ asyncio.run(play())
 ### Run Locally
 
 ```bash
-git clone https://huggingface.co/spaces/Manasviii27/agrichain-rl
-cd agrichain-rl
+git clone https://github.com/rynix27/AgriChain-RL.git
+cd AgriChain-RL
 pip install -r requirements.txt
 cp .env.example .env   # fill in your values
 python server/app.py
@@ -380,8 +378,8 @@ docker run -p 7860:7860 --env-file .env agrichain-rl
 
 ```bash
 pip install -r requirements_training.txt
-# Upload agrichain_training.ipynb to Google Colab (T4 GPU)
-# Run all cells top to bottom — takes ~30–45 min on T4
+# Open https://www.kaggle.com/code/riftstack/notebooka6832d0bd6
+# Run all cells top to bottom — takes ~64 min on T4
 ```
 
 ---
@@ -418,4 +416,4 @@ A tool for economists to model where information asymmetry costs farmers the mos
 
 ---
 
-Built by Manasviii27 | Meta PyTorch OpenEnv Hackathon × Scaler School of Technology, April 2026
+Built by manasviii27 | Meta PyTorch OpenEnv Hackathon × Scaler School of Technology, April 2026
