@@ -1,0 +1,42 @@
+# ── AgriChain-RL Training Stack ───────────────────────────────────────────────
+# Run on a GPU machine (Colab T4/A100, Kaggle, RunPod, Lambda etc.)
+# Install:  pip install -r requirements_training.txt
+#
+# NOTE: requirements.txt covers server/deployment only.
+#       This file covers the RL training pipeline.
+
+# ── Core deep learning ─────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# ── HuggingFace stack ─────────────────────────────────────────────────────────
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.27.0
+huggingface_hub>=0.21.0
+tokenizers>=0.15.0
+safetensors>=0.4.0
+
+# ── RL training ────────────────────────────────────────────────────────────────
+trl>=0.8.6
+
+# ── Memory-efficient fine-tuning (4× faster, 80 % less VRAM than raw HF) ──────
+# Use the colab-new extra on Colab; drop it on bare metal if needed.
+unsloth[colab-new]>=2024.4
+
+# ── Experiment tracking (optional but strongly recommended) ────────────────────
+wandb>=0.16.0
+
+# ── Evaluation + visualisation ────────────────────────────────────────────────
+matplotlib>=3.8.0
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# ── Environment client (shared with server) ───────────────────────────────────
+openenv-core>=0.2.3
+websockets>=12.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0

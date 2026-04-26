@@ -1,0 +1,62 @@
+name: AgriChain-RL
+version: 1.0.0
+description: >
+  Two-stage reinforcement learning environment simulating the complete journey
+  of Indian farm produce from post-harvest logistics to multi-agent mandi
+  price negotiation. Stage 1 minimizes spoilage. Stage 2 maximizes sale price
+  against adversarial buyers. The linking layer connects both stages causally.
+
+author: Manasviii27
+license: apache-2.0
+
+themes:
+  - multi-agent-interactions
+  - long-horizon-planning
+  - world-modeling
+
+environment:
+  type: two-stage
+  stages:
+    - name: FreshChainEnv
+      description: Post-harvest logistics -- dispatch, store, reroute, discard
+      action_space: [dispatch, store, reroute, discard]
+      reward_range: [-1.0, 1.0]
+    - name: MandiNegotiateEnv
+      description: Multi-agent price negotiation against 3 buyer agents
+      action_space: [accept, counter, sell_partial, reject_all]
+      reward_range: [-1.0, 1.0]
+
+reward_functions:
+  - id: R1
+    name: price_ratio
+    weight: 0.40
+    type: outcome
+  - id: R2
+    name: sell_completeness
+    weight: 0.30
+    type: outcome
+  - id: R3
+    name: negotiation_efficiency
+    weight: 0.20
+    type: outcome
+  - id: R4
+    name: format_compliance
+    weight: 0.10
+    type: outcome
+  - id: R5
+    name: process_supervision
+    type: step_level
+    description: Step-level credit for correct intermediate decisions
+
+training:
+  model: Qwen2.5-7B
+  method: GRPO
+  library: Unsloth + HF TRL
+  compute: Free T4 GPU
+  steps: 207
+  greedy_baseline: 0.786
+  grpo_r1_r4_score: 2.853
+  grpo_r5_score: 3.334
+  r5_marginal_gain: 0.481
+  total_improvement: "+2.548 (4.2×)"
+  r5_contribution: 19% of total gain

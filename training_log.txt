@@ -1,0 +1,1204 @@
+6.4s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.4s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.4s 3 0.00s - to python to disable frozen modules.
+6.4s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.0s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.0s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.0s 7 0.00s - to python to disable frozen modules.
+7.0s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.2s 9 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 kB 1.8 MB/s eta 0:00:00
+10.4s 10 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 kB 1.8 MB/s eta 0:00:00
+14.0s 11 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.0/67.0 MB 29.5 MB/s eta 0:00:00
+14.1s 12 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 kB 29.8 MB/s eta 0:00:00
+14.1s 13 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 506.8/506.8 kB 36.6 MB/s eta 0:00:00
+14.2s 14 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.0/67.0 MB 29.5 MB/s eta 0:00:00
+14.2s 15 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 kB 29.8 MB/s eta 0:00:00
+14.2s 16 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 506.8/506.8 kB 36.6 MB/s eta 0:00:00
+14.7s 17 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.7/60.7 MB 32.8 MB/s eta 0:00:00
+14.7s 18 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.7/119.7 kB 10.7 MB/s eta 0:00:00
+14.7s 19 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.3/199.3 kB 17.7 MB/s eta 0:00:00
+14.8s 20 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 107.5 MB/s eta 0:00:00
+14.9s 21 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.7/60.7 MB 32.8 MB/s eta 0:00:00
+14.9s 22 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.7/119.7 kB 10.7 MB/s eta 0:00:00
+14.9s 23 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.3/199.3 kB 17.7 MB/s eta 0:00:00
+14.9s 24 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 107.5 MB/s eta 0:00:00
+14.9s 25 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 646.8/646.8 kB 45.0 MB/s eta 0:00:00
+14.9s 26 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 421.9/421.9 kB 33.1 MB/s eta 0:00:00
+15.0s 27 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 105.1 MB/s eta 0:00:00
+15.0s 28 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 85.1 MB/s eta 0:00:00
+15.1s 29 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 185.2/185.2 kB 16.8 MB/s eta 0:00:00
+15.1s 30 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 646.8/646.8 kB 45.0 MB/s eta 0:00:00
+15.1s 31 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 421.9/421.9 kB 33.1 MB/s eta 0:00:00
+15.1s 32 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 105.1 MB/s eta 0:00:00
+15.1s 33 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 85.1 MB/s eta 0:00:00
+15.1s 34 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 185.2/185.2 kB 16.8 MB/s eta 0:00:00
+15.1s 35 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 110.1 MB/s eta 0:00:00
+15.2s 36 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 106.5 MB/s eta 0:00:00
+15.2s 37 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.0/225.0 kB 16.3 MB/s eta 0:00:00
+15.3s 38 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 110.1 MB/s eta 0:00:00
+15.3s 39 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 106.5 MB/s eta 0:00:00
+15.3s 40 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.0/225.0 kB 16.3 MB/s eta 0:00:00
+34.1s 41 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+34.1s 42 bigframes 2.35.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+34.1s 43 s3fs 2026.2.0 requires fsspec==2026.2.0, but you have fsspec 2025.9.0 which is incompatible.
+34.1s 44 gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2025.9.0 which is incompatible.
+34.3s 45 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+34.3s 46 bigframes 2.35.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+34.3s 47 s3fs 2026.2.0 requires fsspec==2026.2.0, but you have fsspec 2025.9.0 which is incompatible.
+34.3s 48 gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2025.9.0 which is incompatible.
+34.3s 49 
+34.3s 50 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+34.3s 51 bigframes 2.35.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+34.3s 52 s3fs 2026.2.0 requires fsspec==2026.2.0, but you have fsspec 2025.9.0 which is incompatible.
+34.3s 53 gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2025.9.0 which is incompatible.
+42.6s 54 Torch : 2.10.0+cu128
+42.6s 55 CUDA  : True
+42.6s 56 GPU   : Tesla T4
+42.6s 57 VRAM  : 15.6 GB
+42.6s 58 Install complete.
+42.7s 59 AgriChainEnv ready (sync, self-contained, no async).
+42.7s 60 Crops: ['tomato', 'potato', 'onion', 'banana', 'mango', 'cauliflower']
+42.7s 61 Destinations: ['Delhi APMC', 'Mumbai APMC', 'Chennai APMC', 'Kolkata APMC', 'Bangalore APMC', 'Local Mandi']
+42.7s 62 Smoke test passed: stage=freshchain -> reward=0.764
+42.8s 63 Greedy baseline (30 episodes)...
+42.8s 64 ------------------------------------------------------------
+42.8s 65 Ep 10/30 | r=5.9456 | grade=B | r1=0.86 r2=0.50 r3=0.62 r4=1.00
+42.8s 66 Ep 20/30 | r=6.2959 | grade=B | r1=0.89 r2=0.50 r3=0.62 r4=1.00
+42.8s 67 Ep 30/30 | r=5.7431 | grade=B | r1=0.87 r2=0.50 r3=0.62 r4=1.00
+42.8s 68 Greedy avg: reward=5.8368  grade=0.7861
+42.9s 69 🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+71.8s 70 🦥 Unsloth Zoo will now patch everything to make training faster!
+75.0s 71 Loading unsloth/Qwen2.5-7B-Instruct with Unsloth...
+75.4s 72 ==((====))==  Unsloth 2026.4.8: Fast Qwen2 patching. Transformers: 5.5.0.
+75.4s 73 \\   /|    Tesla T4. Num GPUs = 2. Max memory: 14.563 GB. Platform: Linux.
+75.4s 74 O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 7.5. CUDA Toolkit: 12.8. Triton: 3.6.0
+75.4s 75 \        /    Bfloat16 = FALSE. FA [Xformers = 0.0.35. FA2 = False]
+75.4s 76 "-____-"     Free license: http://github.com/unslothai/unsloth
+75.4s 77 Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+112.8s 78 unsloth/qwen2.5-7b-instruct-unsloth-bnb-4bit does not have a padding token! Will use pad_token = <|PAD_TOKEN|>.
+116.7s 79 Unsloth 2026.4.8 patched 28 layers with 28 QKV layers, 28 O layers and 28 MLP layers.
+116.7s 80 
+116.7s 81 Unsloth 2026.4.8 patched 28 layers with 28 QKV layers, 28 O layers and 28 MLP layers.
+118.5s 82 Model ready.
+118.5s 83 Trainable params : 40,370,176
+118.5s 84 Total params     : 4,931,917,312
+118.5s 85 VRAM used        : 7.4GB / 15.6GB (47%)
+118.7s 86 Prompt system ready.
+118.7s 87 Dataset: 300 prompts (150 FreshChain, 150 Mandi)
+118.7s 88 Sample prompt (first 300 chars):
+118.7s 89 <|im_start|>system
+118.7s 90 You are an AI agent for Indian farmers. Minimize spoilage. Maximize sale price.
+118.7s 91 
+118.7s 92 FreshChain JSON only:
+118.7s 93 {"action":"dispatch","batch_id":"B001","truck_id":"T01"}
+118.7s 94 or {"action":"store"} or {"action":"reroute","dest":"Mumbai APMC"}
+118.7s 95 
+118.7s 96 Mandi JSON only:
+118.7s 97 {"action":"accept","buyer_id":"B1"}
+118.7s 98 4 reward functions ready:
+118.7s 99 R1 price_ratio    40%
+118.7s 100 R2 sell_complete  30%
+118.7s 101 R3 negotiation    20%
+118.7s 102 R4 format_json    10%  (no env call -- fast)
+118.7s 103 R5 process supervision ready.
+118.7s 104 Dispatch HIGH-risk (correct) : 0.895  (expected > 0.7)
+118.7s 105 Dispatch LOW-risk  (wrong)   : 0.200   (expected < 0.4)
+118.7s 106 Counter when strong leverage : 0.850  (expected > 0.7)
+118.7s 107 Sanity check passed.
+118.7s 108 warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+118.7s 109 
+118.7s 110 warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+118.9s 111 Starting GRPO training -- Qwen2.5-7B + R5 process supervision...
+118.9s 112 Rewards: r4_format | r5_process | r1_price | r2_sell | r3_negotiation
+118.9s 113 Config : batch=1, grad_accum=8, lr=2e-5, steps=200
+118.9s 114 ------------------------------------------------------------
+119.3s 115 The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+119.3s 116 
+119.3s 117 The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+119.8s 118 ==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+119.8s 119 \\   /|    Num examples = 300 | Num Epochs = 2 | Total steps = 207
+119.8s 120 O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 8
+119.8s 121 \        /    Data Parallel GPUs = 1 | Total batch size (1 x 8 x 1) = 8
+119.8s 122 "-____-"     Trainable parameters = 40,370,176 of 7,655,986,688 (0.53% trained)
+119.8s 123 
+119.8s 124 ==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+119.8s 125 \\   /|    Num examples = 300 | Num Epochs = 2 | Total steps = 207
+119.8s 126 O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 8
+119.8s 127 \        /    Data Parallel GPUs = 1 | Total batch size (1 x 8 x 1) = 8
+119.8s 128 "-____-"     Trainable parameters = 40,370,176 of 7,655,986,688 (0.53% trained)
+120.6s 129 Passing `generation_config` together with generation-related arguments=({'disable_compile', 'cache_implementation', 'pad_token_id'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+120.6s 130 
+120.6s 131 Passing `generation_config` together with generation-related arguments=({'disable_compile', 'cache_implementation', 'pad_token_id'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+120.8s 132 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+120.8s 133 
+120.8s 134 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+121.0s 135 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 136 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 137 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 138 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 139 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 140 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 141 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 142 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 143 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 144 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 145 
+121.0s 146 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 147 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 148 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 149 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 150 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 151 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 152 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 153 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+121.0s 154 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+121.0s 155 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 156 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 157 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 158 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 159 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 160 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 161 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 162 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 163 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 164 
+127.1s 165 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 166 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 167 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 168 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 169 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 170 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+127.1s 171 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+127.1s 172 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+131.6s 173 `use_return_dict` is deprecated! Use `return_dict` instead!
+131.6s 174 
+131.6s 175 `use_return_dict` is deprecated! Use `return_dict` instead!
+131.8s 176 Unsloth: Will smartly offload gradients to save VRAM!
+192.0s 177 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+192.0s 178 
+192.0s 179 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+192.2s 180 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 181 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 182 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 183 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 184 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 185 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 186 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 187 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 188 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 189 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 190 
+192.2s 191 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 192 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 193 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 194 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 195 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 196 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 197 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 198 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+192.2s 199 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+192.2s 200 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.3s 201 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+228.3s 202 
+228.3s 203 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+228.5s 204 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 205 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 206 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 207 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 208 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 209 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 210 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 211 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 212 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 213 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 214 
+228.5s 215 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 216 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 217 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 218 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 219 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 220 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 221 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 222 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+228.5s 223 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+228.5s 224 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.3s 225 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+264.3s 226 
+264.3s 227 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+264.5s 228 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 229 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 230 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 231 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 232 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 233 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 234 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 235 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 236 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 237 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 238 
+264.5s 239 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 240 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 241 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 242 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 243 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 244 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 245 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 246 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+264.5s 247 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+264.5s 248 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.6s 249 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+302.6s 250 
+302.6s 251 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+302.8s 252 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 253 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 254 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 255 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 256 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 257 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 258 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 259 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 260 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 261 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 262 
+302.8s 263 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 264 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 265 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 266 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 267 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 268 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 269 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 270 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+302.8s 271 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+302.8s 272 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.0s 273 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+342.0s 274 
+342.0s 275 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+342.2s 276 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 277 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 278 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 279 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 280 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 281 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 282 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 283 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 284 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 285 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 286 
+342.2s 287 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 288 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 289 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 290 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 291 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 292 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 293 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 294 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+342.2s 295 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+342.2s 296 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.4s 297 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+381.4s 298 
+381.4s 299 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+381.6s 300 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 301 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 302 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 303 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 304 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 305 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 306 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 307 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 308 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 309 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 310 
+381.6s 311 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 312 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 313 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 314 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 315 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 316 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 317 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 318 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+381.6s 319 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+381.6s 320 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 321 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 322 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 323 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 324 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 325 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 326 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 327 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 328 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 329 
+383.4s 330 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 331 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 332 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 333 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 334 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 335 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+383.4s 336 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+383.4s 337 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+401.2s 338 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+401.2s 339 
+401.2s 340 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+401.4s 341 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+401.4s 342 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+401.4s 343 
+401.4s 344 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+401.4s 345 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+419.9s 346 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+419.9s 347 
+419.9s 348 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+461.2s 349 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+461.2s 350 
+461.2s 351 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+461.4s 352 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 353 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 354 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 355 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 356 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 357 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 358 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 359 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 360 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 361 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 362 
+461.4s 363 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 364 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 365 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 366 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 367 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 368 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 369 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 370 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+461.4s 371 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+461.4s 372 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+479.2s 373 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+479.2s 374 
+479.2s 375 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+519.2s 376 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+519.2s 377 
+519.2s 378 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+519.4s 379 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+519.4s 380 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+519.4s 381 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+519.4s 382 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+519.4s 383 
+519.4s 384 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+519.4s 385 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+519.4s 386 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+519.4s 387 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+535.9s 388 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+535.9s 389 
+535.9s 390 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+536.1s 391 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+536.1s 392 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+536.1s 393 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+536.1s 394 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+536.1s 395 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+536.1s 396 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+536.1s 397 
+536.1s 398 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+536.1s 399 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+536.1s 400 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+536.1s 401 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+536.1s 402 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+536.1s 403 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+555.0s 404 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+555.0s 405 
+555.0s 406 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+570.9s 407 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+570.9s 408 
+570.9s 409 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+586.5s 410 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+586.5s 411 
+586.5s 412 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+604.5s 413 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+604.5s 414 
+604.5s 415 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+620.6s 416 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+620.6s 417 
+620.6s 418 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+639.4s 419 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+639.4s 420 
+639.4s 421 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+655.4s 422 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+655.4s 423 
+655.4s 424 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+673.4s 425 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+673.4s 426 
+673.4s 427 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+691.6s 428 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+691.6s 429 
+691.6s 430 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+706.9s 431 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+706.9s 432 
+706.9s 433 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+722.1s 434 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+722.1s 435 
+722.1s 436 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+740.2s 437 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+740.2s 438 
+740.2s 439 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+758.6s 440 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+758.6s 441 
+758.6s 442 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+774.5s 443 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+774.5s 444 
+774.5s 445 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+790.1s 446 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+790.1s 447 
+790.1s 448 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+808.4s 449 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+808.4s 450 
+808.4s 451 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+826.6s 452 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+826.6s 453 
+826.6s 454 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+842.1s 455 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+842.1s 456 
+842.1s 457 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+860.5s 458 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+860.5s 459 
+860.5s 460 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+878.7s 461 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+878.7s 462 
+878.7s 463 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+896.7s 464 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+896.7s 465 
+896.7s 466 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+911.9s 467 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+911.9s 468 
+911.9s 469 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+927.1s 470 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+927.1s 471 
+927.1s 472 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+945.1s 473 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+945.1s 474 
+945.1s 475 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+963.0s 476 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+963.0s 477 
+963.0s 478 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+981.0s 479 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+981.0s 480 
+981.0s 481 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+999.0s 482 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+999.0s 483 
+999.0s 484 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1017.0s 485 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1017.0s 486 
+1017.0s 487 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1032.2s 488 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1032.2s 489 
+1032.2s 490 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1047.4s 491 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1047.4s 492 
+1047.4s 493 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1065.6s 494 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1065.6s 495 
+1065.6s 496 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1080.9s 497 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1080.9s 498 
+1080.9s 499 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1099.3s 500 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1099.3s 501 
+1099.3s 502 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1114.5s 503 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1114.5s 504 
+1114.5s 505 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1132.8s 506 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1132.8s 507 
+1132.8s 508 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1151.0s 509 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1151.0s 510 
+1151.0s 511 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1169.3s 512 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1169.3s 513 
+1169.3s 514 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1184.7s 515 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1184.7s 516 
+1184.7s 517 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1200.0s 518 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1200.0s 519 
+1200.0s 520 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1218.3s 521 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1218.3s 522 
+1218.3s 523 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1233.6s 524 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1233.6s 525 
+1233.6s 526 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1252.0s 527 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1252.0s 528 
+1252.0s 529 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1270.1s 530 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1270.1s 531 
+1270.1s 532 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1288.0s 533 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1288.0s 534 
+1288.0s 535 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1306.1s 536 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1306.1s 537 
+1306.1s 538 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1324.0s 539 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1324.0s 540 
+1324.0s 541 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1342.0s 542 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1342.0s 543 
+1342.0s 544 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1357.1s 545 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1357.1s 546 
+1357.1s 547 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1372.2s 548 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1372.2s 549 
+1372.2s 550 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1390.0s 551 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1390.0s 552 
+1390.0s 553 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1404.9s 554 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1404.9s 555 
+1404.9s 556 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1420.7s 557 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1420.7s 558 
+1420.7s 559 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1436.6s 560 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1436.6s 561 
+1436.6s 562 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1454.8s 563 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1454.8s 564 
+1454.8s 565 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1470.2s 566 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1470.2s 567 
+1470.2s 568 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1488.7s 569 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1488.7s 570 
+1488.7s 571 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1506.9s 572 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1506.9s 573 
+1506.9s 574 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1525.0s 575 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1525.0s 576 
+1525.0s 577 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1542.9s 578 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1542.9s 579 
+1542.9s 580 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1560.8s 581 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1560.8s 582 
+1560.8s 583 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1575.7s 584 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1575.7s 585 
+1575.7s 586 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1593.8s 587 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1593.8s 588 
+1593.8s 589 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1611.7s 590 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1611.7s 591 
+1611.7s 592 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1627.4s 593 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1627.4s 594 
+1627.4s 595 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1645.5s 596 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1645.5s 597 
+1645.5s 598 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1663.5s 599 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1663.5s 600 
+1663.5s 601 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1681.7s 602 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1681.7s 603 
+1681.7s 604 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1699.8s 605 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1699.8s 606 
+1699.8s 607 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1715.1s 608 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1715.1s 609 
+1715.1s 610 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1731.0s 611 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1731.0s 612 
+1731.0s 613 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1746.2s 614 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1746.2s 615 
+1746.2s 616 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1764.6s 617 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1764.6s 618 
+1764.6s 619 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1783.0s 620 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1783.0s 621 
+1783.0s 622 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1798.3s 623 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1798.3s 624 
+1798.3s 625 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1816.6s 626 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1816.6s 627 
+1816.6s 628 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1832.0s 629 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1832.0s 630 
+1832.0s 631 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1849.9s 632 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1849.9s 633 
+1849.9s 634 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1865.6s 635 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1865.6s 636 
+1865.6s 637 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1880.7s 638 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1880.7s 639 
+1880.7s 640 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1898.6s 641 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1898.6s 642 
+1898.6s 643 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1914.4s 644 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1914.4s 645 
+1914.4s 646 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1932.5s 647 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1932.5s 648 
+1932.5s 649 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1950.8s 650 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1950.8s 651 
+1950.8s 652 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1969.2s 653 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1969.2s 654 
+1969.2s 655 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1987.3s 656 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+1987.3s 657 
+1987.3s 658 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2005.5s 659 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2005.5s 660 
+2005.5s 661 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2021.3s 662 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2021.3s 663 
+2021.3s 664 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2039.7s 665 Unsloth: Restored added_tokens_decoder metadata in agrichain-grpo-7b-output/checkpoint-100/tokenizer_config.json.
+2039.7s 666 
+2039.7s 667 Unsloth: Restored added_tokens_decoder metadata in agrichain-grpo-7b-output/checkpoint-100/tokenizer_config.json.
+2040.0s 668 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2040.0s 669 
+2040.0s 670 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2040.2s 671 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 672 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 673 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 674 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 675 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 676 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 677 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 678 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 679 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 680 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 681 
+2040.2s 682 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 683 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 684 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 685 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 686 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 687 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 688 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 689 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2040.2s 690 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+2040.2s 691 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2055.7s 692 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2055.7s 693 
+2055.7s 694 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2073.7s 695 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2073.7s 696 
+2073.7s 697 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2092.0s 698 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2092.0s 699 
+2092.0s 700 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2110.2s 701 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2110.2s 702 
+2110.2s 703 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2126.3s 704 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2126.3s 705 
+2126.3s 706 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2144.5s 707 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2144.5s 708 
+2144.5s 709 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2162.7s 710 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2162.7s 711 
+2162.7s 712 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2178.4s 713 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2178.4s 714 
+2178.4s 715 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2196.4s 716 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2196.4s 717 
+2196.4s 718 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2212.1s 719 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2212.1s 720 
+2212.1s 721 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2227.0s 722 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2227.0s 723 
+2227.0s 724 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2245.0s 725 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2245.0s 726 
+2245.0s 727 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2262.9s 728 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2262.9s 729 
+2262.9s 730 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2280.8s 731 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2280.8s 732 
+2280.8s 733 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2298.8s 734 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2298.8s 735 
+2298.8s 736 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2316.7s 737 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2316.7s 738 
+2316.7s 739 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2331.8s 740 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2331.8s 741 
+2331.8s 742 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2347.6s 743 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2347.6s 744 
+2347.6s 745 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2363.5s 746 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2363.5s 747 
+2363.5s 748 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2381.8s 749 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2381.8s 750 
+2381.8s 751 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2399.7s 752 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2399.7s 753 
+2399.7s 754 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2414.9s 755 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2414.9s 756 
+2414.9s 757 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2430.6s 758 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2430.6s 759 
+2430.6s 760 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2448.5s 761 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2448.5s 762 
+2448.5s 763 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2466.5s 764 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2466.5s 765 
+2466.5s 766 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2484.5s 767 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2484.5s 768 
+2484.5s 769 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2502.5s 770 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2502.5s 771 
+2502.5s 772 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2520.9s 773 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2520.9s 774 
+2520.9s 775 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2539.4s 776 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2539.4s 777 
+2539.4s 778 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2554.8s 779 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2554.8s 780 
+2554.8s 781 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2573.1s 782 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2573.1s 783 
+2573.1s 784 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2588.4s 785 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2588.4s 786 
+2588.4s 787 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2603.7s 788 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2603.7s 789 
+2603.7s 790 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2621.7s 791 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2621.7s 792 
+2621.7s 793 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2640.0s 794 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2640.0s 795 
+2640.0s 796 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2656.0s 797 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2656.0s 798 
+2656.0s 799 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2674.1s 800 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2674.1s 801 
+2674.1s 802 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2692.2s 803 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2692.2s 804 
+2692.2s 805 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2710.1s 806 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2710.1s 807 
+2710.1s 808 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2728.2s 809 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2728.2s 810 
+2728.2s 811 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2746.0s 812 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2746.0s 813 
+2746.0s 814 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2761.1s 815 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2761.1s 816 
+2761.1s 817 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2776.2s 818 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2776.2s 819 
+2776.2s 820 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2794.2s 821 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2794.2s 822 
+2794.2s 823 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2812.2s 824 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2812.2s 825 
+2812.2s 826 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2830.1s 827 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2830.1s 828 
+2830.1s 829 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2848.0s 830 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2848.0s 831 
+2848.0s 832 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2866.0s 833 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2866.0s 834 
+2866.0s 835 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2883.7s 836 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2883.7s 837 
+2883.7s 838 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2901.6s 839 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2901.6s 840 
+2901.6s 841 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2917.3s 842 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2917.3s 843 
+2917.3s 844 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2935.4s 845 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2935.4s 846 
+2935.4s 847 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2953.6s 848 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2953.6s 849 
+2953.6s 850 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2972.0s 851 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2972.0s 852 
+2972.0s 853 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2987.0s 854 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2987.0s 855 
+2987.0s 856 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3004.9s 857 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3004.9s 858 
+3004.9s 859 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3022.8s 860 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3022.8s 861 
+3022.8s 862 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3041.0s 863 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3041.0s 864 
+3041.0s 865 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3059.3s 866 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3059.3s 867 
+3059.3s 868 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3074.5s 869 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3074.5s 870 
+3074.5s 871 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3089.7s 872 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3089.7s 873 
+3089.7s 874 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3107.7s 875 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3107.7s 876 
+3107.7s 877 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3125.5s 878 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3125.5s 879 
+3125.5s 880 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3143.4s 881 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3143.4s 882 
+3143.4s 883 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3158.4s 884 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3158.4s 885 
+3158.4s 886 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3176.3s 887 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3176.3s 888 
+3176.3s 889 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3194.3s 890 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3194.3s 891 
+3194.3s 892 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3212.4s 893 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3212.4s 894 
+3212.4s 895 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3230.9s 896 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3230.9s 897 
+3230.9s 898 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3249.0s 899 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3249.0s 900 
+3249.0s 901 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3264.0s 902 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3264.0s 903 
+3264.0s 904 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3279.6s 905 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3279.6s 906 
+3279.6s 907 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3294.7s 908 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3294.7s 909 
+3294.7s 910 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3312.7s 911 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3312.7s 912 
+3312.7s 913 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3330.9s 914 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3330.9s 915 
+3330.9s 916 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3349.3s 917 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3349.3s 918 
+3349.3s 919 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3367.8s 920 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3367.8s 921 
+3367.8s 922 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3383.9s 923 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3383.9s 924 
+3383.9s 925 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3402.2s 926 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3402.2s 927 
+3402.2s 928 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3420.7s 929 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3420.7s 930 
+3420.7s 931 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3436.1s 932 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3436.1s 933 
+3436.1s 934 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3454.2s 935 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3454.2s 936 
+3454.2s 937 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3472.3s 938 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3472.3s 939 
+3472.3s 940 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3487.3s 941 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3487.3s 942 
+3487.3s 943 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3505.2s 944 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3505.2s 945 
+3505.2s 946 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3523.2s 947 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3523.2s 948 
+3523.2s 949 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3540.9s 950 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3540.9s 951 
+3540.9s 952 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3558.8s 953 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3558.8s 954 
+3558.8s 955 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3576.8s 956 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3576.8s 957 
+3576.8s 958 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3595.0s 959 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3595.0s 960 
+3595.0s 961 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3610.4s 962 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3610.4s 963 
+3610.4s 964 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3625.7s 965 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3625.7s 966 
+3625.7s 967 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3643.9s 968 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3643.9s 969 
+3643.9s 970 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3659.0s 971 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3659.0s 972 
+3659.0s 973 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3677.2s 974 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3677.2s 975 
+3677.2s 976 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3695.1s 977 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3695.1s 978 
+3695.1s 979 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3713.1s 980 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3713.1s 981 
+3713.1s 982 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3728.1s 983 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3728.1s 984 
+3728.1s 985 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3743.1s 986 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3743.1s 987 
+3743.1s 988 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3761.6s 989 Unsloth: Restored added_tokens_decoder metadata in agrichain-grpo-7b-output/checkpoint-200/tokenizer_config.json.
+3761.6s 990 
+3761.6s 991 Unsloth: Restored added_tokens_decoder metadata in agrichain-grpo-7b-output/checkpoint-200/tokenizer_config.json.
+3761.9s 992 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3761.9s 993 
+3761.9s 994 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3762.1s 995 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 996 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 997 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 998 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 999 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1000 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 1001 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1002 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 1003 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1004 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 1005 
+3762.1s 1006 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1007 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 1008 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1009 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 1010 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1011 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 1012 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1013 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3762.1s 1014 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3762.1s 1015 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3779.7s 1016 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3779.7s 1017 
+3779.7s 1018 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3795.0s 1019 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3795.0s 1020 
+3795.0s 1021 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3810.4s 1022 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3810.4s 1023 
+3810.4s 1024 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3829.0s 1025 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3829.0s 1026 
+3829.0s 1027 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3847.3s 1028 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3847.3s 1029 
+3847.3s 1030 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3862.6s 1031 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3862.6s 1032 
+3862.6s 1033 Both `max_new_tokens` (=48) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3881.4s 1034 Unsloth: Restored added_tokens_decoder metadata in agrichain-grpo-7b-output/checkpoint-207/tokenizer_config.json.
+3881.4s 1035 
+3881.4s 1036 Unsloth: Restored added_tokens_decoder metadata in agrichain-grpo-7b-output/checkpoint-207/tokenizer_config.json.
+3882.5s 1037 Training complete.
+3882.7s 1038 Loss entries: 41  |  Reward entries: 42
+3884.8s 1039 
+3884.8s 1040 ==================================================
+3884.8s 1041 ABLATION STUDY RESULTS
+3884.8s 1042 ==================================================
+3884.8s 1043 Greedy baseline      : 0.7860
+3884.8s 1044 GRPO (R1-R4 only)   : 2.8530
+3884.8s 1045 GRPO + R5 (process) : 3.3345
+3884.8s 1046 R5 marginal gain    : +0.4815
+3884.8s 1047 Total improvement   : +2.5485
+3884.8s 1048 ==================================================
+3884.8s 1049 agrichain_grpo_curves.png saved.
+3885.5s 1050 Unsloth: Restored added_tokens_decoder metadata in agrichain-lora-7b/tokenizer_config.json.
+3885.5s 1051 
+3885.5s 1052 Unsloth: Restored added_tokens_decoder metadata in agrichain-lora-7b/tokenizer_config.json.
+3885.7s 1053 Saved locally to agrichain-lora-7b/
+3888.9s 1054 Traceback (most recent call last):
+3888.9s 1055 File "<string>", line 1, in <module>
+3888.9s 1056 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+3888.9s 1057 raise_for_execution_errors(nb, output_path)
+3888.9s 1058 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+3888.9s 1059 raise error
+3888.9s 1060 papermill.exceptions.PapermillExecutionError:
+3888.9s 1061 ---------------------------------------------------------------------------
+3888.9s 1062 Exception encountered at "In [9]":
+3888.9s 1063 ---------------------------------------------------------------------------
+3888.9s 1064 HTTPStatusError                           Traceback (most recent call last)
+3888.9s 1065 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_http.py in hf_raise_for_status(response, endpoint_name)
+3888.9s 1066 760     try:
+3888.9s 1067 --> 761         response.raise_for_status()
+3888.9s 1068 762     except httpx.HTTPStatusError as e:
+3888.9s 1069 
+3888.9s 1070 /usr/local/lib/python3.12/dist-packages/httpx/_models.py in raise_for_status(self)
+3888.9s 1071 828         message = message.format(self, error_type=error_type)
+3888.9s 1072 --> 829         raise HTTPStatusError(message, request=request, response=self)
+3888.9s 1073 830
+3888.9s 1074 
+3888.9s 1075 HTTPStatusError: Client error '403 Forbidden' for url 'https://huggingface.co/api/repos/create'
+3888.9s 1076 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+3888.9s 1077 
+3888.9s 1078 The above exception was the direct cause of the following exception:
+3888.9s 1079 
+3888.9s 1080 HfHubHTTPError                            Traceback (most recent call last)
+3888.9s 1081 /usr/local/lib/python3.12/dist-packages/unsloth/save.py in unsloth_push_to_hub(self, repo_id, commit_message, commit_description, private, token, revision, create_pr, max_shard_size, tags)
+3888.9s 1082 
+3888.9s 1083 /usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py in push_to_hub(self, repo_id, commit_message, commit_description, private, token, revision, create_pr, max_shard_size, tags)
+3888.9s 1084 777         # Create repo if it doesn't exist yet
+3888.9s 1085 --> 778         repo_id = create_repo(repo_id, private=private, token=token, exist_ok=True).repo_id
+3888.9s 1086 779
+3888.9s 1087 
+3888.9s 1088 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_deprecation.py in inner_f(*args, **kwargs)
+3888.9s 1089 100                 warnings.warn(message, FutureWarning)
+3888.9s 1090 --> 101             return f(*args, **kwargs)
+3888.9s 1091 102
+3888.9s 1092 
+3888.9s 1093 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py in _inner_fn(*args, **kwargs)
+3888.9s 1094 87
+3888.9s 1095 ---> 88         return fn(*args, **kwargs)
+3888.9s 1096 89
+3888.9s 1097 
+3888.9s 1098 /usr/local/lib/python3.12/dist-packages/huggingface_hub/hf_api.py in create_repo(self, repo_id, token, private, visibility, repo_type, exist_ok, resource_group_id, space_sdk, space_hardware, space_storage, space_sleep_time, space_secrets, space_variables, space_volumes)
+3888.9s 1099 4516                 except HfHubHTTPError:
+3888.9s 1100 -> 4517                     raise err
+3888.9s 1101 4518             else:
+3888.9s 1102 
+3888.9s 1103 /usr/local/lib/python3.12/dist-packages/huggingface_hub/hf_api.py in create_repo(self, repo_id, token, private, visibility, repo_type, exist_ok, resource_group_id, space_sdk, space_hardware, space_storage, space_sleep_time, space_secrets, space_variables, space_volumes)
+3888.9s 1104 4503         try:
+3888.9s 1105 -> 4504             hf_raise_for_status(r)
+3888.9s 1106 4505         except HfHubHTTPError as err:
+3888.9s 1107 
+3888.9s 1108 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_http.py in hf_raise_for_status(response, endpoint_name)
+3888.9s 1109 848             )
+3888.9s 1110 --> 849             raise _format(HfHubHTTPError, message, response) from e
+3888.9s 1111 850
+3888.9s 1112 
+3888.9s 1113 HfHubHTTPError: (Request ID: Root=1-69ed17d4-77a47aec734681b82c5dfdff;69086033-bf22-4094-af8a-d89be724fdc5)
+3888.9s 1114 
+3888.9s 1115 403 Forbidden: You don't have the rights to create a model under the namespace "manasviii27".
+3888.9s 1116 Cannot access content at: https://huggingface.co/api/repos/create.
+3888.9s 1117 Make sure your token has the correct permissions.
+3888.9s 1118 
+3888.9s 1119 During handling of the above exception, another exception occurred:
+3888.9s 1120 
+3888.9s 1121 HTTPStatusError                           Traceback (most recent call last)
+3888.9s 1122 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_http.py in hf_raise_for_status(response, endpoint_name)
+3888.9s 1123 760     try:
+3888.9s 1124 --> 761         response.raise_for_status()
+3888.9s 1125 762     except httpx.HTTPStatusError as e:
+3888.9s 1126 
+3888.9s 1127 /usr/local/lib/python3.12/dist-packages/httpx/_models.py in raise_for_status(self)
+3888.9s 1128 828         message = message.format(self, error_type=error_type)
+3888.9s 1129 --> 829         raise HTTPStatusError(message, request=request, response=self)
+3888.9s 1130 830
+3888.9s 1131 
+3888.9s 1132 HTTPStatusError: Client error '403 Forbidden' for url 'https://huggingface.co/api/repos/create'
+3888.9s 1133 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+3888.9s 1134 
+3888.9s 1135 The above exception was the direct cause of the following exception:
+3888.9s 1136 
+3888.9s 1137 HfHubHTTPError                            Traceback (most recent call last)
+3888.9s 1138 /tmp/ipykernel_23/3618927884.py in <cell line: 0>()
+3888.9s 1139 11 if HF_TOKEN:
+3888.9s 1140 12     login(token=HF_TOKEN)
+3888.9s 1141 ---> 13     model.push_to_hub(MODEL_REPO, token=HF_TOKEN)
+3888.9s 1142 14     tokenizer.push_to_hub(MODEL_REPO, token=HF_TOKEN)
+3888.9s 1143 15     print(f"Pushed to huggingface.co/{MODEL_REPO}")
+3888.9s 1144 
+3888.9s 1145 /usr/local/lib/python3.12/dist-packages/unsloth/save.py in unsloth_push_to_hub(self, repo_id, commit_message, commit_description, private, token, revision, create_pr, max_shard_size, tags)
+3888.9s 1146 
+3888.9s 1147 /usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py in push_to_hub(self, repo_id, commit_message, commit_description, private, token, revision, create_pr, max_shard_size, tags)
+3888.9s 1148 776         """
+3888.9s 1149 777         # Create repo if it doesn't exist yet
+3888.9s 1150 --> 778         repo_id = create_repo(repo_id, private=private, token=token, exist_ok=True).repo_id
+3888.9s 1151 779
+3888.9s 1152 780         # Load model card or create a new one + eventually tag it
+3888.9s 1153 
+3888.9s 1154 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_deprecation.py in inner_f(*args, **kwargs)
+3888.9s 1155 99                     message += "\n\n" + custom_message
+3888.9s 1156 100                 warnings.warn(message, FutureWarning)
+3888.9s 1157 --> 101             return f(*args, **kwargs)
+3888.9s 1158 102
+3888.9s 1159 103         return inner_f
+3888.9s 1160 
+3888.9s 1161 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py in _inner_fn(*args, **kwargs)
+3888.9s 1162 86         kwargs = smoothly_deprecate_legacy_arguments(fn_name=fn.__name__, kwargs=kwargs)
+3888.9s 1163 87
+3888.9s 1164 ---> 88         return fn(*args, **kwargs)
+3888.9s 1165 89
+3888.9s 1166 90     return _inner_fn  # type: ignore
+3888.9s 1167 
+3888.9s 1168 /usr/local/lib/python3.12/dist-packages/huggingface_hub/hf_api.py in create_repo(self, repo_id, token, private, visibility, repo_type, exist_ok, resource_group_id, space_sdk, space_hardware, space_storage, space_sleep_time, space_secrets, space_variables, space_volumes)
+3888.9s 1169 4515                     return RepoUrl(f"{self.endpoint}/{constants.REPO_TYPES_URL_PREFIXES[repo_type]}{repo_id}")
+3888.9s 1170 4516                 except HfHubHTTPError:
+3888.9s 1171 -> 4517                     raise err
+3888.9s 1172 4518             else:
+3888.9s 1173 4519                 raise
+3888.9s 1174 
+3888.9s 1175 /usr/local/lib/python3.12/dist-packages/huggingface_hub/hf_api.py in create_repo(self, repo_id, token, private, visibility, repo_type, exist_ok, resource_group_id, space_sdk, space_hardware, space_storage, space_sleep_time, space_secrets, space_variables, space_volumes)
+3888.9s 1176 4502
+3888.9s 1177 4503         try:
+3888.9s 1178 -> 4504             hf_raise_for_status(r)
+3888.9s 1179 4505         except HfHubHTTPError as err:
+3888.9s 1180 4506             if exist_ok and err.response.status_code == 409:
+3888.9s 1181 
+3888.9s 1182 /usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_http.py in hf_raise_for_status(response, endpoint_name)
+3888.9s 1183 847                 + "\nMake sure your token has the correct permissions."
+3888.9s 1184 848             )
+3888.9s 1185 --> 849             raise _format(HfHubHTTPError, message, response) from e
+3888.9s 1186 850
+3888.9s 1187 851         elif response.status_code == 429:
+3888.9s 1188 
+3888.9s 1189 HfHubHTTPError: (Request ID: Root=1-69ed17d4-3daa7d5e0a6ec8510e5cf1a2;2257699c-eef0-4d8b-81cb-2174f64037c3)
+3888.9s 1190 
+3888.9s 1191 403 Forbidden: You don't have the rights to create a model under the namespace "manasviii27".
+3888.9s 1192 Cannot access content at: https://huggingface.co/api/repos/create.
+3888.9s 1193 Make sure your token has the correct permissions.
+3888.9s 1194 
+3891.1s 1195 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+3891.1s 1196 cells[i][c] = re.sub('\\\\\|', '|', cell)
+3891.3s 1197 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+3891.3s 1198 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+3891.9s 1199 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+3892.2s 1200 [NbConvertApp] Writing 708898 bytes to __notebook__.ipynb
+3894.6s 1201 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+3895.6s 1202 [NbConvertApp] Support files will be in __results___files/
+3895.6s 1203 [NbConvertApp] Making directory __results___files
+3895.6s 1204 [NbConvertApp] Writing 752799 bytes to __results__.html

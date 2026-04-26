@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgriChain-RL</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --white: #ffffff;
+    --off: #f8faf6;
+    --green-deep: #1a4a2e;
+    --green-mid: #2d7a4f;
+    --green-light: #4caf76;
+    --green-pale: #d4edd9;
+    --green-wash: #edf7f0;
+    --text: #1a2e22;
+    --muted: #6b8f77;
+    --border: #d0e8d8;
+    --red: #c0392b;
+    --gold: #b5851a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--white);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* Thin top bar */
+  .topbar {
+    background: var(--green-deep);
+    color: rgba(255,255,255,0.7);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 8px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .topbar-right { display: flex; gap: 24px; }
+
+  .live-dot {
+    width: 5px; height: 5px;
+    background: #4caf76;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+    animation: blink 2s ease-in-out infinite;
+  }
+
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+  /* Header */
+  header {
+    padding: 32px 40px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--green-deep);
+    letter-spacing: -0.5px;
+  }
+
+  .logo-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .header-right {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .header-stat {
+    text-align: right;
+  }
+
+  .header-stat-val {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--green-mid);
+    line-height: 1;
+  }
+
+  .header-stat-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 3px;
+  }
+
+  .header-divider {
+    width: 1px;
+    height: 36px;
+    background: var(--border);
+  }
+
+  /* Layout */
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    min-height: calc(100vh - 120px);
+  }
+
+  /* Main */
+  .main {
+    border-right: 1px solid var(--border);
+    padding: 32px 40px;
+  }
+
+  /* Stage bar */
+  .stage-bar {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 28px;
+  }
+
+  .stage-pill {
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    background: var(--white);
+    color: var(--muted);
+    transition: all 0.2s;
+    margin-right: -1px;
+  }
+
+  .stage-pill:first-child { border-radius: 6px 0 0 6px; }
+  .stage-pill:last-child { border-radius: 0 6px 6px 0; margin-right: 0; }
+
+  .stage-pill.active {
+    background: var(--green-deep);
+    border-color: var(--green-deep);
+    color: white;
+    z-index: 1;
+  }
+
+  /* Difficulty */
+  .diff-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+
+  .diff-label {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-right: 4px;
+  }
+
+  .diff-btn {
+    padding: 5px 14px;
+    font-size: 12px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--white);
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .diff-btn:hover { border-color: var(--green-mid); color: var(--green-mid); }
+  .diff-btn.active { background: var(--green-pale); border-color: var(--green-mid); color: var(--green-deep); font-weight: 500; }
+
+  /* Section label */
+  .section-label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-badge {
+    background: var(--green-wash);
+    color: var(--green-mid);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  /* Batch table */
+  .batch-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+  }
+
+  .batch-table th {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+    text-align: left;
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--border);
+    background: var(--off);
+  }
+
+  .batch-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+
+  .batch-table tr:last-child td { border-bottom: none; }
+  .batch-table tr:hover td { background: var(--green-wash); }
+  .batch-table tr.dispatched td { opacity: 0.4; }
+
+  .batch-id {
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  .risk-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .risk-high { background: #fde8e8; color: var(--red); }
+  .risk-med  { background: #fef6e0; color: var(--gold); }
+  .risk-low  { background: var(--green-pale); color: var(--green-deep); }
+
+  .risk-bar-wrap {
+    width: 60px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+
+  .risk-bar {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.4s ease;
+  }
+
+  .qty-val {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--green-deep);
+  }
+
+  .qual-val { color: var(--muted); font-size: 12px; }
+
+  .dispatch-btn {
+    padding: 5px 14px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border: 1px solid var(--green-mid);
+    border-radius: 5px;
+    background: var(--white);
+    color: var(--green-mid);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .dispatch-btn:hover { background: var(--green-mid); color: white; }
+  .dispatch-btn:disabled { border-color: var(--border); color: var(--muted); cursor: default; background: var(--off); }
+
+  /* Trucks */
+  .trucks-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .truck-card {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .truck-id {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--green-deep);
+    margin-bottom: 2px;
+  }
+
+  .truck-status {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .truck-ok { color: var(--green-mid); }
+  .truck-fail { color: var(--red); }
+
+  /* Action buttons */
+  .action-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .action-btn {
+    flex: 1;
+    padding: 11px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--white);
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+  }
+
+  .action-btn:hover { border-color: var(--green-mid); color: var(--green-mid); background: var(--green-wash); }
+  .action-btn.primary { background: var(--green-deep); border-color: var(--green-deep); color: white; }
+  .action-btn.primary:hover { background: var(--green-mid); border-color: var(--green-mid); }
+  .action-btn.danger { color: var(--red); }
+  .action-btn.danger:hover { border-color: var(--red); background: #fff5f5; }
+  .action-btn:disabled { opacity: 0.4; cursor: default; }
+
+  /* Buyer cards */
+  .buyer-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .buyer-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 12px;
+    transition: border-color 0.15s;
+    cursor: pointer;
+    background: var(--white);
+  }
+
+  .buyer-card:hover:not(.gone) { border-color: var(--green-mid); background: var(--green-wash); }
+  .buyer-card.selected { border-color: var(--green-deep); background: var(--green-wash); }
+  .buyer-card.gone { opacity: 0.35; cursor: default; }
+
+  .buyer-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--green-deep);
+    margin-bottom: 2px;
+  }
+
+  .buyer-meta {
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .buyer-walkaway {
+    margin-top: 6px;
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .walkaway-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--green-light), var(--red));
+    border-radius: 2px;
+    transition: width 0.4s ease;
+  }
+
+  .buyer-offer {
+    text-align: right;
+  }
+
+  .offer-amount {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--green-deep);
+    line-height: 1;
+  }
+
+  .offer-unit {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* Counter input */
+  .counter-group {
+    display: flex;
+    gap: 0;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .counter-label {
+    background: var(--off);
+    padding: 0 14px;
+    font-size: 12px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    border-right: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  .counter-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 11px 14px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--green-deep);
+    background: var(--white);
+  }
+
+  .counter-input::placeholder { color: var(--border); font-weight: 400; font-size: 14px; font-family: 'DM Sans', sans-serif; }
+
+  .counter-go {
+    background: var(--green-deep);
+    border: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: background 0.15s;
+  }
+
+  .counter-go:hover { background: var(--green-mid); }
+
+  /* Leverage badge */
+  .leverage-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: var(--off);
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+
+  .leverage-tag {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .leverage-val {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 12px;
+  }
+
+  .lev-strong   { background: var(--green-pale); color: var(--green-deep); }
+  .lev-moderate { background: #e8f4e8; color: var(--green-mid); }
+  .lev-weak     { background: #fef6e0; color: var(--gold); }
+  .lev-desperate{ background: #fde8e8; color: var(--red); }
+
+  /* Right panel */
+  .sidebar {
+    padding: 32px 24px;
+    background: var(--off);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  /* Score card */
+  .score-card {
+    background: var(--green-deep);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    color: white;
+  }
+
+  .score-label {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 8px;
+  }
+
+  .score-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+  }
+
+  .score-grade {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-top: 8px;
+  }
+
+  /* Metric cards */
+  .metric-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+  }
+
+  .metric-title {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+
+  .metric-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+
+  .metric-row:last-child { margin-bottom: 0; }
+
+  .metric-name {
+    font-size: 11px;
+    color: var(--muted);
+    width: 110px;
+    flex-shrink: 0;
+  }
+
+  .metric-bar-wrap {
+    flex: 1;
+    height: 5px;
+    background: var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .metric-bar {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+  }
+
+  .metric-val {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--green-deep);
+    width: 32px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  /* Log */
+  .log-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    flex: 1;
+  }
+
+  .log-title {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .log-entries {
+    max-height: 240px;
+    overflow-y: auto;
+  }
+
+  .log-entries::-webkit-scrollbar { width: 3px; }
+  .log-entries::-webkit-scrollbar-track { background: var(--off); }
+  .log-entries::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .log-entry {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    animation: fadeIn 0.3s ease;
+  }
+
+  @keyframes fadeIn { from{opacity:0;transform:translateY(-3px)} to{opacity:1;transform:translateY(0)} }
+
+  .log-entry:last-child { border-bottom: none; }
+
+  .log-step-num {
+    font-size: 10px;
+    color: var(--muted);
+    width: 20px;
+    flex-shrink: 0;
+    padding-top: 1px;
+  }
+
+  .log-content { flex: 1; }
+
+  .log-event {
+    font-size: 12px;
+    color: var(--text);
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .log-detail {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 1px;
+  }
+
+  .log-reward {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 1px;
+  }
+
+  .log-pos { color: var(--green-mid); }
+  .log-neg { color: var(--red); }
+
+  /* Reset */
+  .reset-btn {
+    width: 100%;
+    padding: 11px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--white);
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .reset-btn:hover { border-color: var(--green-mid); color: var(--green-mid); }
+
+  /* Hidden */
+  .hidden { display: none !important; }
+
+  /* Terminal strip */
+  .terminal-strip {
+    background: var(--green-wash);
+    border-top: 1px solid var(--border);
+    padding: 10px 40px;
+    font-size: 12px;
+    color: var(--green-mid);
+  }
+
+  /* Transition */
+  .transition-overlay {
+    position: fixed;
+    inset: 0;
+    background: var(--green-deep);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+  }
+
+  .transition-overlay.show { opacity: 1; pointer-events: all; }
+
+  .transition-content {
+    text-align: center;
+    color: white;
+  }
+
+  .transition-label {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 8px;
+  }
+
+  .transition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1px;
+  }
+</style>
+</head>
+<body>
+
+<div class="transition-overlay" id="overlay">
+  <div class="transition-content">
+    <div class="transition-label">Moving to</div>
+    <div class="transition-title">Mandi Stage</div>
+  </div>
+</div>
+
+<div class="topbar">
+  <span><span class="live-dot"></span>AgriChain-RL -- Live Environment</span>
+  <div class="topbar-right">
+    <span>OpenEnv v0.2.3</span>
+    <span>Qwen2.5-7B</span>
+    <span id="topDiff">Medium</span>
+  </div>
+</div>
+
+<header>
+  <div>
+    <div class="logo">AgriChain-RL</div>
+    <div class="logo-sub">Farm to Sale -- Two Stage RL Environment</div>
+  </div>
+  <div class="header-right">
+    <div class="header-stat">
+      <div class="header-stat-val" id="hSaved">0</div>
+      <div class="header-stat-label">kg Saved</div>
+    </div>
+    <div class="header-divider"></div>
+    <div class="header-stat">
+      <div class="header-stat-val" id="hRevenue">Rs 0</div>
+      <div class="header-stat-label">Revenue</div>
+    </div>
+    <div class="header-divider"></div>
+    <div class="header-stat">
+      <div class="header-stat-val" id="hGrade">--</div>
+      <div class="header-stat-label">Grade</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <div class="main">
+
+    <!-- Stage bar -->
+    <div class="stage-bar">
+      <div class="stage-pill active" id="tabFC">Stage 1 -- FreshChain</div>
+      <div class="stage-pill" id="tabMandi">Stage 2 -- Mandi</div>
+    </div>
+
+    <!-- Difficulty -->
+    <div class="diff-row">
+      <span class="diff-label">Difficulty</span>
+      <button class="diff-btn" onclick="setDiff('easy',this)">Easy</button>
+      <button class="diff-btn active" onclick="setDiff('medium',this)">Medium</button>
+      <button class="diff-btn" onclick="setDiff('hard',this)">Hard</button>
+    </div>
+
+    <!-- FreshChain Panel -->
+    <div id="fcPanel">
+      <div class="section-label">
+        <span>Produce Batches</span>
+        <span class="section-badge" id="fcStep">Step 0 / 10</span>
+      </div>
+
+      <table class="batch-table">
+        <thead>
+          <tr>
+            <th>Batch</th>
+            <th>Spoilage Risk</th>
+            <th>Quantity</th>
+            <th>Quality</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="batchBody"></tbody>
+      </table>
+
+      <div class="section-label">
+        <span>Trucks</span>
+        <span class="section-badge" id="truckBadge">0 ready</span>
+      </div>
+      <div class="trucks-row" id="truckRow"></div>
+
+      <div class="action-row">
+        <button class="action-btn" onclick="doStore()">Store This Step</button>
+        <button class="action-btn" onclick="doReroute()">Reroute to Mumbai APMC</button>
+      </div>
+    </div>
+
+    <!-- Mandi Panel -->
+    <div id="mandiPanel" class="hidden">
+
+      <div class="leverage-row">
+        <span class="leverage-tag">Farmer Leverage</span>
+        <span class="leverage-val lev-strong" id="levVal">Strong</span>
+      </div>
+
+      <div class="section-label">
+        <span>Buyer Agents</span>
+        <span class="section-badge" id="mandiRound">Round 0 / 8</span>
+      </div>
+
+      <div class="buyer-grid" id="buyerGrid"></div>
+
+      <div class="counter-group">
+        <div class="counter-label">Counter at Rs</div>
+        <input class="counter-input" id="counterInput" type="number" placeholder="Enter price per kg" step="0.5">
+        <button class="counter-go" onclick="doCounter()">Send</button>
+      </div>
+
+      <div class="action-row">
+        <button class="action-btn primary" onclick="doAccept()">Accept Best Offer</button>
+        <button class="action-btn" onclick="doReject()">Reject All</button>
+      </div>
+      <div class="action-row">
+        <button class="action-btn" onclick="doPartial()">Sell 50%</button>
+        <button class="action-btn danger" onclick="doForceMSP()">Force Sell at MSP</button>
+      </div>
+    </div>
+
+    <div class="terminal-strip" id="terminal">
+      AgriChain-RL ready. Dispatch your batches to minimize spoilage before reaching the mandi.
+    </div>
+
+    <div style="padding: 16px 40px 0;">
+      <button class="reset-btn" onclick="resetEp()">Reset Episode</button>
+    </div>
+
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <div class="score-card">
+      <div class="score-label">Episode Score</div>
+      <div class="score-number" id="scoreNum">0.00</div>
+      <div class="score-grade" id="scoreGrade">Awaiting result</div>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-title">Reward Functions</div>
+      <div class="metric-row">
+        <span class="metric-name">R1 Price (40%)</span>
+        <div class="metric-bar-wrap"><div class="metric-bar" id="r1b" style="width:0%;background:#2d7a4f"></div></div>
+        <span class="metric-val" id="r1v">0.00</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-name">R2 Sell (30%)</span>
+        <div class="metric-bar-wrap"><div class="metric-bar" id="r2b" style="width:0%;background:#4caf76"></div></div>
+        <span class="metric-val" id="r2v">0.00</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-name">R3 Negot (20%)</span>
+        <div class="metric-bar-wrap"><div class="metric-bar" id="r3b" style="width:0%;background:#b5851a"></div></div>
+        <span class="metric-val" id="r3v">0.00</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-name">R4 Format (10%)</span>
+        <div class="metric-bar-wrap"><div class="metric-bar" id="r4b" style="width:100%;background:#d4edd9"></div></div>
+        <span class="metric-val" id="r4v">1.00</span>
+      </div>
+    </div>
+
+    <div class="log-card">
+      <div class="log-title">
+        <span>Episode Log</span>
+        <span id="logCount">0 events</span>
+      </div>
+      <div class="log-entries" id="logEntries"></div>
+    </div>
+
+    <button class="reset-btn" onclick="resetEp()">New Episode</button>
+
+  </div>
+</div>
+
+<script>
+// ---- Constants
+const CROPS=['tomato','potato','onion','banana','mango','cauliflower'];
+const MR={tomato:[15,45],potato:[10,22],onion:[12,35],banana:[18,40],mango:[35,120],cauliflower:[10,25]};
+const MSP_MAP={tomato:12,potato:8,onion:10,banana:15,mango:30,cauliflower:8};
+const DM={'Delhi APMC':1.15,'Mumbai APMC':1.20,'Chennai APMC':1.10,'Kolkata APMC':1.08,'Bangalore APMC':1.12,'Local Mandi':0.90};
+const DESTS=Object.keys(DM);
+const SP={easy:.03,medium:.05,hard:.08};
+const MS={easy:12,medium:10,hard:8};
+const NB={easy:4,medium:6,hard:8};
+const NT={easy:4,medium:3,hard:2};
+
+let S={}, task='medium', logs=[], logCount=0, selectedBuyer=null;
+
+function r(a,b){return a+Math.random()*(b-a);}
+function ri(a,b){return Math.floor(a+Math.random()*(b-a+1));}
+function sh(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function init(){
+  const crop=CROPS[ri(0,CROPS.length-1)];
+  const dest=DESTS[ri(0,DESTS.length-1)];
+  const [lo,hi]=MR[crop];
+  const market=parseFloat((r(lo,hi)*DM[dest]).toFixed(2));
+  const nb=NB[task],nt=NT[task];
+  const strats=sh(['aggressive','moderate','desperate']);
+  S={
+    stage:'freshchain',crop,dest,market,msp:MSP_MAP[crop],
+    maxSteps:MS[task],stepCount:0,failStep:ri(3,7),
+    saved:0,lost:0,revenue:0,qtySold:0,
+    quality:.8,days:3,mRound:0,
+    batches:Array.from({length:nb},(_,i)=>({
+      id:`B${String(i+1).padStart(3,'0')}`,
+      qty:parseFloat(r(80,200).toFixed(1)),
+      qual:parseFloat(r(.7,1).toFixed(2)),
+      risk:parseFloat(r(.1,.9).toFixed(2)),
+      disp:false,disc:false
+    })),
+    trucks:Array.from({length:nt},(_,i)=>({id:`T${String(i+1).padStart(2,'0')}`,avail:true})),
+    buyers:Array.from({length:3},(_,i)=>({
+      id:`B${i+1}`,
+      name:['Ramesh Traders','Delhi Agro Exports','FreshMart Wholesale'][i],
+      strat:strats[i],
+      budget:parseFloat((market*r(.9,1.4)).toFixed(2)),
+      demand:parseFloat(r(.2,.95).toFixed(2)),
+      offer:0,gone:false,walkaway:ri(5,7)
+    }))
+  };
+  logs=[]; logCount=0; selectedBuyer=null;
+  updateOffers();
+  render();
+  setTerminal(`Episode started. Crop: ${S.crop.toUpperCase()} | Market: Rs${S.market}/kg | Destination: ${S.dest}`);
+}
+
+function updateOffers(){
+  const base=S.market*S.quality;
+  S.buyers.forEach(b=>{
+    if(b.gone)return;
+    const rr=S.mRound;
+    let o;
+    if(b.strat==='aggressive')o=base*(1-Math.max(.04,.35-rr*.025));
+    else if(b.strat==='moderate')o=base*(1-Math.max(.01,.15-rr*.035));
+    else o=base*(1+b.demand*.18);
+    b.offer=Math.min(parseFloat(o.toFixed(2)),b.budget);
+  });
+}
+
+function lev(){
+  if(S.quality>=.75&&S.days<=4)return'strong';
+  if(S.quality>=.50&&S.days<=7)return'moderate';
+  if(S.quality>=.25)return'weak';
+  return'desperate';
+}
+
+function doStore(){
+  applyStep(); const nr=-.05;
+  addLog('Stored','All batches held this step.',nr);
+  if(!checkFCDone())render();
+}
+
+function doDispatch(bId){
+  const b=S.batches.find(x=>x.id===bId);
+  const avail=S.trucks.filter(t=>t.avail);
+  if(!b||!avail.length||b.disp||b.disc)return;
+  applyStep();
+  b.disp=true; S.saved+=b.qty; avail[0].avail=false;
+  const r2=b.qual*1.5+b.risk*1.0;
+  const nr=Math.max(-1,Math.min(1,r2/2));
+  addLog(`Dispatched ${bId}`,`${b.qty.toFixed(0)}kg via ${avail[0].id} | quality=${b.qual} risk=${b.risk}`,nr);
+  if(!checkFCDone())render();
+}
+
+function doReroute(){
+  applyStep();
+  S.dest='Mumbai APMC';
+  const bonus=(DM['Mumbai APMC']-1.0)*10;
+  const nr=Math.max(-1,Math.min(1,bonus/2));
+  addLog('Rerouted','Destination changed to Mumbai APMC (1.20x multiplier)',nr);
+  if(!checkFCDone())render();
+}
+
+function applyStep(){
+  S.stepCount++;
+  if(S.stepCount===S.failStep){
+    const av=S.trucks.filter(t=>t.avail);
+    if(av.length){ av[0].avail=false; addLog(`Truck ${av[0].id} failed`,`Broke down at step ${S.stepCount}`,0); }
+  }
+  S.batches.forEach(b=>{
+    if(!b.disp&&!b.disc){
+      const loss=b.qty*SP[task]*b.risk;
+      b.qty=Math.max(0,b.qty-loss); b.risk=Math.min(1,b.risk+.05); S.lost+=loss;
+    }
+  });
+}
+
+function checkFCDone(){
+  const done=S.stepCount>=S.maxSteps||S.batches.every(b=>b.disp||b.disc);
+  if(done){
+    const tot=S.saved+S.lost;
+    const sr=S.lost/Math.max(tot,1);
+    S.quality=Math.max(.05,(1-sr)-Math.min(.3,S.stepCount*.02));
+    S.days=S.stepCount+2; S.stage='mandi'; updateOffers();
+    const ov=document.getElementById('overlay');
+    ov.classList.add('show');
+    setTimeout(()=>{ov.classList.remove('show');render();
+      setTerminal(`Stage 2 unlocked. Quality: ${S.quality.toFixed(2)} | Leverage: ${lev().toUpperCase()} | Market: Rs${S.market}/kg`);
+    },1000);
+    return true;
+  }
+  return false;
+}
+
+function doAccept(){
+  const active=S.buyers.filter(b=>!b.gone);
+  const tgt=selectedBuyer?S.buyers.find(b=>b.id===selectedBuyer&&!b.gone):
+    active.reduce((a,b)=>b.offer>a.offer?b:a,{offer:-1});
+  if(!tgt||tgt.offer<0)return;
+  const ratio=tgt.offer/S.market;
+  let raw=ratio>=.95?100:ratio>=.80?60:ratio>=(S.msp/S.market)?30:-20;
+  S.revenue+=tgt.offer*Math.max(S.saved,1); S.qtySold+=Math.max(S.saved,1);
+  const nr=Math.max(-1,Math.min(1,raw/100));
+  addLog(`Accepted Rs${tgt.offer}/kg`,`From ${tgt.name} | Ratio: ${(ratio*100).toFixed(1)}%`,nr);
+  finalizeEp();
+}
+
+function doReject(){
+  S.mRound++;
+  const l=lev(); const raw=(['strong','moderate'].includes(l))?2:-5;
+  S.quality=Math.max(.01,S.quality-.04); S.days++;
+  S.buyers.forEach(b=>{if(!b.gone&&S.mRound>=b.walkaway)b.gone=true;});
+  updateOffers();
+  const nr=Math.max(-1,Math.min(1,raw/100));
+  addLog('Rejected all offers',`Round ${S.mRound}/8 | Leverage: ${l}`,nr);
+  if(S.mRound>=8)finalizeEp(); else render();
+}
+
+function doCounter(){
+  const price=parseFloat(document.getElementById('counterInput').value);
+  if(!price||price<S.msp){setTerminal(`Counter price must be above MSP Rs${S.msp}/kg`);return;}
+  S.mRound++;
+  const active=S.buyers.filter(b=>!b.gone);
+  const acc=active.filter(b=>price<=b.budget*1.05);
+  if(acc.length){
+    const w=acc.reduce((a,b)=>b.demand>a.demand?b:a);
+    const ratio=price/S.market;
+    let raw=ratio>=.90?80:ratio>=.75?50:20;
+    S.revenue+=price*Math.max(S.saved,1); S.qtySold+=Math.max(S.saved,1);
+    const nr=Math.max(-1,Math.min(1,raw/100));
+    addLog(`Counter Rs${price} accepted`,`By ${w.name} | Ratio: ${(ratio*100).toFixed(1)}%`,nr);
+    finalizeEp();
+  } else {
+    S.buyers.forEach(b=>{if(!b.gone&&S.mRound>=b.walkaway)b.gone=true;});
+    updateOffers();
+    addLog(`Counter Rs${price} rejected`,'All buyers declined.',-0.03);
+    render();
+  }
+}
+
+function doPartial(){
+  const active=S.buyers.filter(b=>!b.gone);
+  if(!active.length)return;
+  const best=active.reduce((a,b)=>b.offer>a.offer?b:a);
+  const qty=Math.max(S.saved,1)*.5; const p=best.offer;
+  S.revenue+=p*qty; S.qtySold+=qty; S.saved-=qty;
+  const raw=p/S.market>=.85?40:20;
+  const nr=Math.max(-1,Math.min(1,raw/100));
+  S.mRound++;
+  addLog(`Sold 50% at Rs${p}/kg`,`${qty.toFixed(0)}kg sold to ${best.name}`,nr);
+  if(S.mRound>=8)finalizeEp(); else{updateOffers();render();}
+}
+
+function doForceMSP(){
+  S.revenue+=Math.max(S.saved,1)*S.msp; S.qtySold+=Math.max(S.saved,1);
+  addLog('Force sold at MSP','Below market rate -- penalty applied',-0.2);
+  finalizeEp();
+}
+
+function finalizeEp(){
+  const avgP=S.qtySold>0?S.revenue/S.qtySold:0;
+  const ratio=avgP/Math.max(S.market,1);
+  const r1=S.qtySold===0?0:avgP<S.msp?Math.max(0,ratio*.3):Math.min(1,ratio);
+  const r2=S.qtySold/(S.qtySold+Math.max(S.saved,0)+.001);
+  const rb=Math.min(1,S.mRound/4);
+  const r3=S.qtySold===0?0:ratio>=.80?(0.5+.5*rb):0.2*rb;
+  const r4=S.mRound>=8&&S.qtySold===0?0:S.mRound>=8?.5:1.0;
+  const fc=S.saved/Math.max(S.saved+S.lost,1);
+  const mandi=.4*r1+.3*r2+.2*r3+.1*r4;
+  const combined=.4*fc+.6*mandi;
+
+  // Update metrics
+  const sm=(id,v)=>{
+    document.getElementById(id+'b').style.width=(v*100)+'%';
+    document.getElementById(id+'v').textContent=v.toFixed(2);
+  };
+  sm('r1',r1);sm('r2',r2);sm('r3',r3);sm('r4',r4);
+
+  document.getElementById('scoreNum').textContent=combined.toFixed(3);
+  const g=combined>=.90?'S':combined>=.75?'A':combined>=.60?'B':combined>=.45?'C':'F';
+  document.getElementById('scoreGrade').textContent='Grade '+g;
+  document.getElementById('hGrade').textContent=g;
+  document.getElementById('hRevenue').textContent='Rs'+Math.round(S.revenue).toLocaleString();
+
+  addLog('Episode complete',`Grade: ${g} | Score: ${combined.toFixed(3)} | Revenue: Rs${Math.round(S.revenue).toLocaleString()}`,combined);
+  S.stage='complete'; render();
+  setTerminal(`Episode complete. Grade: ${g} | Combined Score: ${combined.toFixed(3)}`);
+}
+
+function addLog(event, detail, reward){
+  logCount++;
+  document.getElementById('logCount').textContent=logCount+' events';
+  document.getElementById('hSaved').textContent=Math.round(S.saved);
+  const el=document.getElementById('logEntries');
+  const entry=document.createElement('div');
+  entry.className='log-entry';
+  const sign=reward>0?'+':'';
+  const cls=reward>0?'log-pos':reward<0?'log-neg':'';
+  entry.innerHTML=`
+    <span class="log-step-num">${String(S.stepCount).padStart(2,'0')}</span>
+    <div class="log-content">
+      <div class="log-event">${event}</div>
+      <div class="log-detail">${detail}</div>
+    </div>
+    ${reward!==0?`<span class="log-reward ${cls}">${sign}${reward.toFixed(2)}</span>`:''}`;
+  el.insertBefore(entry,el.firstChild);
+}
+
+function setTerminal(msg){ document.getElementById('terminal').textContent=msg; }
+
+function render(){
+  const isFC=S.stage==='freshchain';
+  const isMandi=S.stage==='mandi'||S.stage==='complete';
+
+  document.getElementById('fcPanel').className=isFC?'':'hidden';
+  document.getElementById('mandiPanel').className=isMandi?'':'hidden';
+  document.getElementById('tabFC').className='stage-pill'+(isFC?' active':'');
+  document.getElementById('tabMandi').className='stage-pill'+(isMandi?' active':'');
+
+  if(isFC){
+    document.getElementById('fcStep').textContent=`Step ${S.stepCount} / ${S.maxSteps}`;
+    const avail=S.trucks.filter(t=>t.avail);
+    document.getElementById('truckBadge').textContent=avail.length+' ready';
+
+    // Batches
+    const tbody=document.getElementById('batchBody');
+    tbody.innerHTML='';
+    S.batches.forEach(b=>{
+      const tr=document.createElement('tr');
+      if(b.disp||b.disc)tr.classList.add('dispatched');
+      const riskClass=b.risk>.65?'risk-high':b.risk>.35?'risk-med':'risk-low';
+      const riskLabel=b.risk>.65?'High':b.risk>.35?'Med':'Low';
+      tr.innerHTML=`
+        <td><span class="batch-id">${b.id}</span></td>
+        <td>
+          <div class="risk-bar-wrap"><div class="risk-bar ${riskClass}" style="width:${b.risk*100}%"></div></div>
+          <span class="risk-pill ${riskClass}">${riskLabel} ${(b.risk*100).toFixed(0)}%</span>
+        </td>
+        <td><span class="qty-val">${b.qty.toFixed(0)}</span> kg</td>
+        <td><span class="qual-val">${b.qual.toFixed(2)}</span></td>
+        <td>
+          <button class="dispatch-btn" onclick="doDispatch('${b.id}')"
+            ${b.disp||b.disc||!avail.length?'disabled':''}>
+            ${b.disp?'Dispatched':b.disc?'Discarded':'Dispatch'}
+          </button>
+        </td>`;
+      tbody.appendChild(tr);
+    });
+
+    // Trucks
+    const tr2=document.getElementById('truckRow');
+    tr2.innerHTML='';
+    S.trucks.forEach(t=>{
+      const d=document.createElement('div');
+      d.className='truck-card';
+      d.innerHTML=`<div class="truck-id">${t.id}</div>
+        <div class="truck-status ${t.avail?'truck-ok':'truck-fail'}">${t.avail?'Ready':'Failed'}</div>`;
+      tr2.appendChild(d);
+    });
+  }
+
+  if(isMandi){
+    document.getElementById('mandiRound').textContent=`Round ${S.mRound} / 8`;
+    const l=lev();
+    const levEl=document.getElementById('levVal');
+    levEl.textContent=l.charAt(0).toUpperCase()+l.slice(1);
+    levEl.className='leverage-val lev-'+l;
+
+    // Buyers
+    const grid=document.getElementById('buyerGrid');
+    grid.innerHTML='';
+    S.buyers.forEach(b=>{
+      const card=document.createElement('div');
+      card.className='buyer-card'+(b.gone?' gone':selectedBuyer===b.id?' selected':'');
+      if(!b.gone)card.onclick=()=>{selectedBuyer=b.id;render();};
+      const pct=Math.max(0,(b.walkaway-S.mRound)/b.walkaway*100);
+      card.innerHTML=`
+        <div>
+          <div class="buyer-name">${b.name}</div>
+          <div class="buyer-meta">${b.strat.charAt(0).toUpperCase()+b.strat.slice(1)} buyer${b.gone?' -- walked away':` -- ${Math.max(0,b.walkaway-S.mRound)} rounds left`}</div>
+          <div class="buyer-walkaway"><div class="walkaway-fill" style="width:${100-pct}%"></div></div>
+        </div>
+        <div class="buyer-offer">
+          <div class="offer-amount">Rs ${b.gone?'--':b.offer.toFixed(0)}</div>
+          <div class="offer-unit">per kg</div>
+        </div>`;
+      grid.appendChild(card);
+    });
+
+    // Suggest counter price
+    const active=S.buyers.filter(b=>!b.gone);
+    if(active.length){
+      document.getElementById('counterInput').placeholder=`Suggested: Rs ${(S.market*.92).toFixed(2)}`;
+    }
+
+    if(S.stage==='complete'){
+      document.querySelectorAll('.action-btn,.dispatch-btn,.counter-go').forEach(b=>b.disabled=true);
+    }
+  }
+}
+
+function setDiff(d,el){
+  task=d;
+  document.querySelectorAll('.diff-btn').forEach(b=>b.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('topDiff').textContent=d.charAt(0).toUpperCase()+d.slice(1);
+  resetEp();
+}
+
+function resetEp(){
+  document.getElementById('batchBody').innerHTML='';
+  document.getElementById('logEntries').innerHTML='';
+  document.getElementById('logCount').textContent='0 events';
+  document.getElementById('scoreNum').textContent='0.00';
+  document.getElementById('scoreGrade').textContent='Awaiting result';
+  document.getElementById('hSaved').textContent='0';
+  document.getElementById('hRevenue').textContent='Rs 0';
+  document.getElementById('hGrade').textContent='--';
+  document.getElementById('counterInput').value='';
+  ['r1','r2','r3'].forEach(id=>{
+    document.getElementById(id+'b').style.width='0%';
+    document.getElementById(id+'v').textContent='0.00';
+  });
+  document.getElementById('r4b').style.width='100%';
+  document.getElementById('r4v').textContent='1.00';
+  document.querySelectorAll('.action-btn,.dispatch-btn,.counter-go').forEach(b=>b.disabled=false);
+  init();
+}
+
+init();
+</script>
+</body>
+</html>

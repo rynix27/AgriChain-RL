@@ -1,0 +1,57 @@
+# ── Secrets — NEVER commit these ──────────────────────────────────────────────
+.env
+*.env
+secrets.json
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+
+# ── Training outputs ──────────────────────────────────────────────────────────
+agrichain-grpo-output/
+agrichain-lora-adapters/
+agrichain-merged/
+checkpoint-*/
+runs/
+outputs/
+
+# ── Model weights (use HF Hub instead) ───────────────────────────────────────
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Evaluation results ────────────────────────────────────────────────────────
+eval_results/
+benchmark_results/
+*.log
+
+# ── Weights & Biases ──────────────────────────────────────────────────────────
+wandb/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+._*
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
