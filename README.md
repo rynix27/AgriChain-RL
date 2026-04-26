@@ -32,10 +32,10 @@ Built for the **Meta PyTorch OpenEnv Hackathon × Scaler School of Technology, I
 
 | Resource | Link |
 |---|---|
-| **Live Demo** | [HuggingFace Space — try it yourself](https://huggingface.co/spaces/manasviii27/AgriChain-rl) |
-| **GitHub Repo** | [rynix27/AgriChain-RL](https://github.com/rynix27/AgriChain-RL) |
-| **Training Notebook** | [Kaggle — run it yourself](https://www.kaggle.com/code/riftstack/notebooka6832d0bd6) |
-| **Blog / Video** | Coming soon |
+| **Live Demo** | (https://huggingface.co/spaces/manasviii27/AgriChain-rl) |
+| **GitHub Repo** |(https://github.com/rynix27/AgriChain-RL) |
+| **Training Notebook** |(https://www.kaggle.com/code/riftstack/notebooka6832d0bd6) |
+| **Blog / Video** | https://youtu.be/5lTPMtAYPI4 |
 | **Results** | See training curves below |
 
 ---
