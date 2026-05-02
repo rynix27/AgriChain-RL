@@ -35,7 +35,6 @@ Built for the **Meta PyTorch OpenEnv Hackathon × Scaler School of Technology, I
 | **Live Demo** | (https://huggingface.co/spaces/manasviii27/AgriChain-rl) |
 | **GitHub Repo** |(https://github.com/rynix27/AgriChain-RL) |
 | **Training Notebook** |(https://www.kaggle.com/code/riftstack/notebooka6832d0bd6) |
-| **Blog / Video** | https://youtu.be/5lTPMtAYPI4 |
 | **Results** | See training curves below |
 
 ---
